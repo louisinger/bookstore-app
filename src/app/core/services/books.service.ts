@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { Book } from 'src/app/model/book';
 import { Observable, of } from 'rxjs';
 import { catchError } from 'rxjs/operators'
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { errorHandler } from './http-error-handler';
 
 /**
@@ -13,6 +13,8 @@ import { errorHandler } from './http-error-handler';
 })
 export class BooksService {
 
+  private options = { headers: new HttpHeaders().set('Content-Type', 'application/json') };
+
   constructor(
     private http: HttpClient,
   ) { }
@@ -22,7 +24,7 @@ export class BooksService {
   }
 
   create(book: Book): Observable<Book> {
-    return this.http.post<Book>('api/books/', book).pipe(catchError(errorHandler));
+    return this.http.post<Book>('api/books', book, this.options).pipe(catchError(errorHandler));
   }
 
   delete(id: number): Observable<Book> {

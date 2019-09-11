@@ -1,0 +1,24 @@
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Create book</h5>
+    <form [formGroup]="formGroup" (ngSubmit)="createBook()">
+      <div class="form-group">
+        <label for="title">Book title</label>
+        <input formControlName="title" type="text" class="form-control" id="title" aria-describedby="title" placeholder="Enter the book's title">
+      </div>
+      <div class="form-group">
+        <label for="publisher">Publisher</label>
+        <input formControlName="publisher" type="text" class="form-control" id="publisher" aria-describedby="publisher" placeholder="What is the publisher of the book ?">
+      </div>
+      <div class="form-group">
+        <label for="type">Book type</label>
+        <input formControlName="type" type="text" class="form-control" id="type" aria-describedby="type" placeholder="Enter the book's type">
+      </div>
+      <div class="form-group">
+        <label for="numberOfPages">Number of pages</label>
+        <input formControlName="numberOfPages" type="text" class="form-control" id="numberOfPages" aria-describedby="numberOfPages" placeholder="Enter the number of pages">
+      </div>
+      <button [disabled]="!formGroup.valid" class="btn btn-primary mb-2">Create</button>
+    </form>
+  </div>
+</div>

@@ -9,14 +9,14 @@ import { Book } from './model/book';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  books: Observable<Book[]>;
+  allBooks: Observable<Book[]>;
 
   constructor(
     private bookService: BooksService,
   ) {}
 
   ngOnInit() {
-    this.books = this.bookService.get();
+    this.allBooks = this.bookService.get();
   }
 
 }

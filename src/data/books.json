@@ -1,703 +1,815 @@
 {
-	"books":[{
-	  "id": 1,
-	  "title": "Crazy Stone (Fengkuang de shitou)",
-	  "publisher": "Torphy, Cronin and Schumm",
-	  "type": "Comedy|Crime",
-	  "numberOfPages": null,
-	  "isFavorite": false
-	}, {
-	  "id": 2,
-	  "title": "And Soon the Darkness",
-	  "publisher": "Prohaska, Zieme and Lehner",
-	  "type": "Mystery|Thriller",
-	  "numberOfPages": 552,
-	  "isFavorite": true
-	}, {
-	  "id": 3,
-	  "title": "Electra Glide in Blue",
-	  "publisher": "Gusikowski, Lubowitz and Nolan",
-	  "type": "Action|Crime",
-	  "numberOfPages": 884,
-	  "isFavorite": true
-	}, {
-	  "id": 4,
-	  "title": "ABC Africa",
-	  "publisher": "Paucek, Dietrich and Stamm",
-	  "type": "Documentary",
-	  "numberOfPages": 394,
-	  "isFavorite": false
-	}, {
-	  "id": 5,
-	  "title": "Pohjanmaa",
-	  "publisher": "Boehm, Haley and Schaden",
-	  "type": "Drama",
-	  "numberOfPages": 943,
-	  "isFavorite": false
-	}, {
-	  "id": 6,
-	  "title": "Garbage Prince",
-	  "publisher": "Ryan Inc",
-	  "type": "Comedy|Drama|Romance",
-	  "numberOfPages": 339,
-	  "isFavorite": false
-	}, {
-	  "id": 7,
-	  "title": "Art of War, The",
-	  "publisher": "Rice-Greenholt",
-	  "type": "Action|Thriller",
-	  "numberOfPages": 557,
-	  "isFavorite": true
-	}, {
-	  "id": 8,
-	  "title": "In Her Shoes",
-	  "publisher": "Lang-Medhurst",
-	  "type": "Comedy|Drama",
-	  "numberOfPages": 338,
-	  "isFavorite": false
-	}, {
-	  "id": 9,
-	  "title": "Four-Faced Liar, The",
-	  "publisher": "Schaefer-Marvin",
-	  "type": "Comedy|Drama|Romance",
-	  "numberOfPages": 578,
-	  "isFavorite": false
-	}, {
-	  "id": 10,
-	  "title": "Trust Me",
-	  "publisher": "Abernathy, Lind and Deckow",
-	  "type": "Comedy|Drama",
-	  "numberOfPages": 140,
-	  "isFavorite": false
-	}, {
-	  "id": 11,
-	  "title": "The Seven Males",
-	  "publisher": "Paucek LLC",
-	  "type": "Comedy|Western",
-	  "numberOfPages": 695,
-	  "isFavorite": true
-	}, {
-	  "id": 12,
-	  "title": "Fine, Totally Fine (Zenzen Daijobu)",
-	  "publisher": "Douglas, Williamson and Sipes",
-	  "type": "Comedy",
-	  "numberOfPages": 784,
-	  "isFavorite": true
-	}, {
-	  "id": 13,
-	  "title": "SpongeBob Movie: Sponge Out of Water, The",
-	  "publisher": "Hilpert-O'Reilly",
-	  "type": "Adventure|Animation|Children|Comedy",
-	  "numberOfPages": 96,
-	  "isFavorite": false
-	}, {
-	  "id": 14,
-	  "title": "The Referees",
-	  "publisher": "Gaylord, Mayert and Witting",
-	  "type": "Documentary",
-	  "numberOfPages": 956,
-	  "isFavorite": true
-	}, {
-	  "id": 15,
-	  "title": "Love God?, The",
-	  "publisher": "Weimann Inc",
-	  "type": "Comedy",
-	  "numberOfPages": 836,
-	  "isFavorite": true
-	}, {
-	  "id": 16,
-	  "title": "Planet of the Apes",
-	  "publisher": "Schimmel-Boyle",
-	  "type": "Action|Drama|Sci-Fi",
-	  "numberOfPages": 613,
-	  "isFavorite": false
-	}, {
-	  "id": 17,
-	  "title": "Lila Says (Lila dit ça)",
-	  "publisher": "Schumm-Thompson",
-	  "type": "Crime|Drama|Romance",
-	  "numberOfPages": 490,
-	  "isFavorite": true
-	}, {
-	  "id": 18,
-	  "title": "Maps to the Stars",
-	  "publisher": "Herman Group",
-	  "type": "Drama",
-	  "numberOfPages": 589,
-	  "isFavorite": false
-	}, {
-	  "id": 19,
-	  "title": "Drummer-Crab (Le Crabe-Tambour)",
-	  "publisher": "Rutherford, Rowe and McLaughlin",
-	  "type": "Adventure|Drama|War",
-	  "numberOfPages": 885,
-	  "isFavorite": false
-	}, {
-	  "id": 20,
-	  "title": "Child Bride",
-	  "publisher": "Douglas-Klocko",
-	  "type": "Drama",
-	  "numberOfPages": 810,
-	  "isFavorite": true
-	}, {
-	  "id": 21,
-	  "title": "Kwaidan (Kaidan)",
-	  "publisher": "Huel LLC",
-	  "type": "Horror",
-	  "numberOfPages": 571,
-	  "isFavorite": true
-	}, {
-	  "id": 22,
-	  "title": "The 'High Sign'",
-	  "publisher": "Walker and Sons",
-	  "type": "Comedy",
-	  "numberOfPages": 169,
-	  "isFavorite": true
-	}, {
-	  "id": 23,
-	  "title": "Tarzan the Fearless",
-	  "publisher": "Kling LLC",
-	  "type": "Action|Adventure",
-	  "numberOfPages": 928,
-	  "isFavorite": true
-	}, {
-	  "id": 24,
-	  "title": "I'm Not Rappaport",
-	  "publisher": "Johnson, Yundt and Kautzer",
-	  "type": "Comedy",
-	  "numberOfPages": 504,
-	  "isFavorite": true
-	}, {
-	  "id": 25,
-	  "title": "Chad Hanna",
-	  "publisher": "Moore-Steuber",
-	  "type": "Drama|Romance",
-	  "numberOfPages": 303,
-	  "isFavorite": false
-	}, {
-	  "id": 26,
-	  "title": "Escape",
-	  "publisher": "Maggio-Stark",
-	  "type": "Drama",
-	  "numberOfPages": 712,
-	  "isFavorite": false
-	}, {
-	  "id": 27,
-	  "title": "Neighbours",
-	  "publisher": "Williamson, Purdy and Kassulke",
-	  "type": "Animation|Comedy",
-	  "numberOfPages": 392,
-	  "isFavorite": false
-	}, {
-	  "id": 28,
-	  "title": "Frenchman's Creek",
-	  "publisher": "Carroll LLC",
-	  "type": "Adventure|Drama|Romance",
-	  "numberOfPages": 547,
-	  "isFavorite": false
-	}, {
-	  "id": 29,
-	  "title": "Callejón de los milagros, El",
-	  "publisher": "Kertzmann-Muller",
-	  "type": "Drama",
-	  "numberOfPages": 343,
-	  "isFavorite": false
-	}, {
-	  "id": 30,
-	  "title": "52 Pick-Up",
-	  "publisher": "Leffler LLC",
-	  "type": "Action|Mystery|Thriller",
-	  "numberOfPages": 949,
-	  "isFavorite": false
-	}, {
-	  "id": 31,
-	  "title": "The War at Home",
-	  "publisher": "Crist and Sons",
-	  "type": "Documentary|War",
-	  "numberOfPages": null,
-	  "isFavorite": false
-	}, {
-	  "id": 32,
-	  "title": "Captain January",
-	  "publisher": "Kohler and Sons",
-	  "type": "Drama",
-	  "numberOfPages": 406,
-	  "isFavorite": true
-	}, {
-	  "id": 33,
-	  "title": "Secret of NIMH 2: Timmy to the Rescue, The",
-	  "publisher": "Bergstrom Group",
-	  "type": "Adventure|Animation|Children|Musical",
-	  "numberOfPages": 276,
-	  "isFavorite": false
-	}, {
-	  "id": 34,
-	  "title": "Ingrid",
-	  "publisher": "Dibbert and Sons",
-	  "type": "Drama",
-	  "numberOfPages": 421,
-	  "isFavorite": false
-	}, {
-	  "id": 35,
-	  "title": "I Inside, The",
-	  "publisher": "Shanahan-Wisozk",
-	  "type": "Fantasy|Mystery|Sci-Fi",
-	  "numberOfPages": 992,
-	  "isFavorite": true
-	}, {
-	  "id": 36,
-	  "title": "Ways to Live Forever",
-	  "publisher": "Walker-Corkery",
-	  "type": "Children|Drama",
-	  "numberOfPages": 271,
-	  "isFavorite": false
-	}, {
-	  "id": 37,
-	  "title": "xXx: State of the Union",
-	  "publisher": "Stark, Johns and Rowe",
-	  "type": "Action|Crime|Thriller",
-	  "numberOfPages": 751,
-	  "isFavorite": false
-	}, {
-	  "id": 38,
-	  "title": "The Great Spy Chase",
-	  "publisher": "Johns LLC",
-	  "type": "Action|Comedy|Thriller",
-	  "numberOfPages": 842,
-	  "isFavorite": false
-	}, {
-	  "id": 39,
-	  "title": "Copycat",
-	  "publisher": "Crooks, Hyatt and Bode",
-	  "type": "Crime|Drama|Horror|Mystery|Thriller",
-	  "numberOfPages": 599,
-	  "isFavorite": true
-	}, {
-	  "id": 40,
-	  "title": "Skin I Live In, The (La piel que habito)",
-	  "publisher": "Schamberger and Sons",
-	  "type": "Drama",
-	  "numberOfPages": 279,
-	  "isFavorite": false
-	}, {
-	  "id": 41,
-	  "title": "Lucy",
-	  "publisher": "Gutmann and Sons",
-	  "type": "Comedy|Drama",
-	  "numberOfPages": 121,
-	  "isFavorite": false
-	}, {
-	  "id": 42,
-	  "title": "Survival Island (Three)",
-	  "publisher": "Wolf-O'Kon",
-	  "type": "Adventure|Drama|Horror",
-	  "numberOfPages": 337,
-	  "isFavorite": true
-	}, {
-	  "id": 43,
-	  "title": "Britannia Hospital",
-	  "publisher": "Breitenberg-Kunze",
-	  "type": "Comedy|Drama",
-	  "numberOfPages": 336,
-	  "isFavorite": false
-	}, {
-	  "id": 44,
-	  "title": "Maidens' Conspiracy, The (Tirante el Blanco)",
-	  "publisher": "Collins-Bahringer",
-	  "type": "Adventure",
-	  "numberOfPages": 496,
-	  "isFavorite": false
-	}, {
-	  "id": 45,
-	  "title": "Megiddo: The Omega Code 2",
-	  "publisher": "Yundt, Adams and Davis",
-	  "type": "Action|Adventure|Fantasy|Sci-Fi|Thriller",
-	  "numberOfPages": 714,
-	  "isFavorite": true
-	}, {
-	  "id": 46,
-	  "title": "Frozen River",
-	  "publisher": "Hermann Inc",
-	  "type": "Drama",
-	  "numberOfPages": 872,
-	  "isFavorite": false
-	}, {
-	  "id": 47,
-	  "title": "Incredible Hulk, The",
-	  "publisher": "Lubowitz LLC",
-	  "type": "Action|Sci-Fi",
-	  "numberOfPages": 812,
-	  "isFavorite": false
-	}, {
-	  "id": 48,
-	  "title": "Springsteen & I",
-	  "publisher": "Kuphal-Stracke",
-	  "type": "Documentary",
-	  "numberOfPages": 866,
-	  "isFavorite": false
-	}, {
-	  "id": 49,
-	  "title": "X2: X-Men United",
-	  "publisher": "Maggio LLC",
-	  "type": "Action|Adventure|Sci-Fi|Thriller",
-	  "numberOfPages": 957,
-	  "isFavorite": false
-	}, {
-	  "id": 50,
-	  "title": "Lawless Heart, The",
-	  "publisher": "Cummerata Group",
-	  "type": "Comedy|Drama",
-	  "numberOfPages": 130,
-	  "isFavorite": true
-	}, {
-	  "id": 51,
-	  "title": "District 13: Ultimatum (Banlieue 13 - Ultimatum)",
-	  "publisher": "Stark and Sons",
-	  "type": "Action|Sci-Fi",
-	  "numberOfPages": 219,
-	  "isFavorite": false
-	}, {
-	  "id": 52,
-	  "title": "Where the Boys Are",
-	  "publisher": "Klein Group",
-	  "type": "Comedy",
-	  "numberOfPages": 256,
-	  "isFavorite": true
-	}, {
-	  "id": 53,
-	  "title": "My Fake  Fiance",
-	  "publisher": "Corwin Inc",
-	  "type": "Comedy|Romance",
-	  "numberOfPages": 219,
-	  "isFavorite": true
-	}, {
-	  "id": 54,
-	  "title": "Made for Each Other",
-	  "publisher": "Morar, Weimann and Kuhic",
-	  "type": "Comedy",
-	  "numberOfPages": 903,
-	  "isFavorite": false
-	}, {
-	  "id": 55,
-	  "title": "Twin Falls Idaho",
-	  "publisher": "Stroman LLC",
-	  "type": "Drama",
-	  "numberOfPages": 624,
-	  "isFavorite": false
-	}, {
-	  "id": 56,
-	  "title": "Hercules",
-	  "publisher": "Rippin-Senger",
-	  "type": "Action|Adventure",
-	  "numberOfPages": 776,
-	  "isFavorite": false
-	}, {
-	  "id": 57,
-	  "title": "Skin I Live In, The (La piel que habito)",
-	  "publisher": "Osinski Group",
-	  "type": "Drama",
-	  "numberOfPages": 976,
-	  "isFavorite": true
-	}, {
-	  "id": 58,
-	  "title": "Tender Hook, The (Boxer and the Bombshell, The)",
-	  "publisher": "Harvey Inc",
-	  "type": "Crime|Drama|Mystery",
-	  "numberOfPages": 233,
-	  "isFavorite": false
-	}, {
-	  "id": 59,
-	  "title": "Paris, Texas",
-	  "publisher": "Greenholt, Kulas and Gleason",
-	  "type": "Drama|Romance",
-	  "numberOfPages": 192,
-	  "isFavorite": false
-	}, {
-	  "id": 60,
-	  "title": "Oliver!",
-	  "publisher": "Boyer, Mosciski and Ondricka",
-	  "type": "Drama|Musical",
-	  "numberOfPages": 380,
-	  "isFavorite": true
-	}, {
-	  "id": 61,
-	  "title": "Cocoon: The Return",
-	  "publisher": "Lemke Inc",
-	  "type": "Comedy|Sci-Fi",
-	  "numberOfPages": 579,
-	  "isFavorite": false
-	}, {
-	  "id": 62,
-	  "title": "Mission: Impossible",
-	  "publisher": "Gibson Group",
-	  "type": "Action|Adventure|Mystery|Thriller",
-	  "numberOfPages": 310,
-	  "isFavorite": false
-	}, {
-	  "id": 63,
-	  "title": "Empire of the Ants",
-	  "publisher": "Hackett-Yundt",
-	  "type": "Horror|Sci-Fi",
-	  "numberOfPages": 460,
-	  "isFavorite": false
-	}, {
-	  "id": 64,
-	  "title": "Bedtime Stories",
-	  "publisher": "Sipes, Quigley and Gulgowski",
-	  "type": "Adventure|Children|Comedy",
-	  "numberOfPages": 943,
-	  "isFavorite": true
-	}, {
-	  "id": 65,
-	  "title": "Jaws",
-	  "publisher": "Johnson and Sons",
-	  "type": "Action|Horror",
-	  "numberOfPages": 468,
-	  "isFavorite": false
-	}, {
-	  "id": 66,
-	  "title": "Election (Hak se wui)",
-	  "publisher": "Gislason LLC",
-	  "type": "Crime|Drama|Thriller",
-	  "numberOfPages": 648,
-	  "isFavorite": true
-	}, {
-	  "id": 67,
-	  "title": "Ill-Fated Love (Doomed Love) (Amor de Perdição)",
-	  "publisher": "Beatty, Koss and Schamberger",
-	  "type": "Drama|Romance",
-	  "numberOfPages": 118,
-	  "isFavorite": true
-	}, {
-	  "id": 68,
-	  "title": "Chhoti Si Baat",
-	  "publisher": "Armstrong-O'Keefe",
-	  "type": "Comedy|Romance",
-	  "numberOfPages": 152,
-	  "isFavorite": false
-	}, {
-	  "id": 69,
-	  "title": "Tale of Princess Kaguya, The (Kaguyahime no monogatari)",
-	  "publisher": "Crona, Olson and Little",
-	  "type": "Animation|Drama|Fantasy",
-	  "numberOfPages": 174,
-	  "isFavorite": false
-	}, {
-	  "id": 70,
-	  "title": "Lady and the Tramp II: Scamp's Adventure",
-	  "publisher": "Hoppe, Koss and Metz",
-	  "type": "Adventure|Animation|Children",
-	  "numberOfPages": 474,
-	  "isFavorite": true
-	}, {
-	  "id": 71,
-	  "title": "Don't Change Your Husband",
-	  "publisher": "Donnelly, Parker and Herzog",
-	  "type": "Comedy",
-	  "numberOfPages": 932,
-	  "isFavorite": false
-	}, {
-	  "id": 72,
-	  "title": "American Strays",
-	  "publisher": "Dicki, Wuckert and Sporer",
-	  "type": "Action",
-	  "numberOfPages": 627,
-	  "isFavorite": false
-	}, {
-	  "id": 73,
-	  "title": "Black Heaven (L'autre monde) (Other World, The)",
-	  "publisher": "Pagac-Cartwright",
-	  "type": "Drama",
-	  "numberOfPages": 663,
-	  "isFavorite": true
-	}, {
-	  "id": 74,
-	  "title": "Humoresque",
-	  "publisher": "Treutel, Turner and Ziemann",
-	  "type": "Drama|Romance",
-	  "numberOfPages": 596,
-	  "isFavorite": false
-	}, {
-	  "id": 75,
-	  "title": "Real Blonde, The",
-	  "publisher": "O'Connell-Ruecker",
-	  "type": "Comedy",
-	  "numberOfPages": 844,
-	  "isFavorite": false
-	}, {
-	  "id": 76,
-	  "title": "Divorce Iranian Style",
-	  "publisher": "Bechtelar, Dietrich and Kozey",
-	  "type": "Documentary",
-	  "numberOfPages": 254,
-	  "isFavorite": true
-	}, {
-	  "id": 77,
-	  "title": "Pokémon Origins",
-	  "publisher": "Kovacek-Gleason",
-	  "type": "Adventure|Animation",
-	  "numberOfPages": 147,
-	  "isFavorite": false
-	}, {
-	  "id": 78,
-	  "title": "Our Town",
-	  "publisher": "Jerde-Hackett",
-	  "type": "Drama|Romance",
-	  "numberOfPages": 703,
-	  "isFavorite": false
-	}, {
-	  "id": 79,
-	  "title": "South Park: Imaginationland",
-	  "publisher": "Thiel Group",
-	  "type": "Animation|Comedy|Fantasy",
-	  "numberOfPages": 706,
-	  "isFavorite": false
-	}, {
-	  "id": 80,
-	  "title": "Soul Food",
-	  "publisher": "Legros, Mante and Upton",
-	  "type": "Drama",
-	  "numberOfPages": 564,
-	  "isFavorite": true
-	}, {
-	  "id": 81,
-	  "title": "Great Expectations",
-	  "publisher": "O'Keefe-Kutch",
-	  "type": "Drama|Romance",
-	  "numberOfPages": 682,
-	  "isFavorite": false
-	}, {
-	  "id": 82,
-	  "title": "Jonathan Livingston Seagull",
-	  "publisher": "Anderson, Kuhic and Flatley",
-	  "type": "Drama",
-	  "numberOfPages": 150,
-	  "isFavorite": false
-	}, {
-	  "id": 83,
-	  "title": "History of Kim Skov (Historien om Kim Skov)",
-	  "publisher": "Ankunding-Hoppe",
-	  "type": "Documentary|Drama",
-	  "numberOfPages": 860,
-	  "isFavorite": true
-	}, {
-	  "id": 84,
-	  "title": "Crocodile (Ag-o)",
-	  "publisher": "Zemlak-Waters",
-	  "type": "Drama",
-	  "numberOfPages": 251,
-	  "isFavorite": false
-	}, {
-	  "id": 85,
-	  "title": "Cheeky Girls",
-	  "publisher": "Satterfield-Veum",
-	  "type": "Comedy",
-	  "numberOfPages": 714,
-	  "isFavorite": true
-	}, {
-	  "id": 86,
-	  "title": "Edison, the Man",
-	  "publisher": "Morar, Mayert and Erdman",
-	  "type": "Drama",
-	  "numberOfPages": 842,
-	  "isFavorite": false
-	}, {
-	  "id": 87,
-	  "title": "Star 80",
-	  "publisher": "Leuschke, Breitenberg and Johnston",
-	  "type": "Drama",
-	  "numberOfPages": 821,
-	  "isFavorite": false
-	}, {
-	  "id": 88,
-	  "title": "White Squall",
-	  "publisher": "Prosacco, Keeling and Hackett",
-	  "type": "Action|Adventure|Drama",
-	  "numberOfPages": 285,
-	  "isFavorite": true
-	}, {
-	  "id": 89,
-	  "title": "Idiots and Angels",
-	  "publisher": "McDermott Inc",
-	  "type": "Animation|Drama|Fantasy",
-	  "numberOfPages": 605,
-	  "isFavorite": false
-	}, {
-	  "id": 90,
-	  "title": "Bleak Moments",
-	  "publisher": "Shields, Connelly and Runolfsdottir",
-	  "type": "Comedy|Drama",
-	  "numberOfPages": 926,
-	  "isFavorite": false
-	}, {
-	  "id": 91,
-	  "title": "Waiter (Ober)",
-	  "publisher": "Larson, Kuphal and Beer",
-	  "type": "Comedy",
-	  "numberOfPages": 763,
-	  "isFavorite": true
-	}, {
-	  "id": 92,
-	  "title": "Wend Kuuni (a.k.a. God's Gift)",
-	  "publisher": "Morissette Inc",
-	  "type": "Drama",
-	  "numberOfPages": 894,
-	  "isFavorite": false
-	}, {
-	  "id": 93,
-	  "title": "Joe Somebody",
-	  "publisher": "Hintz, Predovic and Wisoky",
-	  "type": "Comedy|Drama|Romance",
-	  "numberOfPages": 690,
-	  "isFavorite": false
-	}, {
-	  "id": 94,
-	  "title": "Final Approach",
-	  "publisher": "Toy and Sons",
-	  "type": "Sci-Fi|Thriller",
-	  "numberOfPages": 541,
-	  "isFavorite": false
-	}, {
-	  "id": 95,
-	  "title": "Seven Billiard Tables (Siete mesas de billar francés)",
-	  "publisher": "Hegmann-Lind",
-	  "type": "Drama",
-	  "numberOfPages": 864,
-	  "isFavorite": false
-	}, {
-	  "id": 96,
-	  "title": "Rains of Ranchipur, The",
-	  "publisher": "Rohan-Quigley",
-	  "type": "Adventure|Drama|Romance",
-	  "numberOfPages": 264,
-	  "isFavorite": false
-	}, {
-	  "id": 97,
-	  "title": "Just the Ticket",
-	  "publisher": "Runolfsdottir-Carter",
-	  "type": "Comedy|Romance",
-	  "numberOfPages": 179,
-	  "isFavorite": true
-	}, {
-	  "id": 98,
-	  "title": "Le ultime ore di una vergine",
-	  "publisher": "Jenkins, Kessler and Greenholt",
-	  "type": "(no genres listed)",
-	  "numberOfPages": 479,
-	  "isFavorite": false
-	}, {
-	  "id": 99,
-	  "title": "Wild, The",
-	  "publisher": "Lynch, Connelly and Effertz",
-	  "type": "Adventure|Animation|Children|Comedy|Fantasy",
-	  "numberOfPages": 693,
-	  "isFavorite": false
-	}, {
-	  "id": 100,
-	  "title": "Paint It Yellow (Rang De Basanti)",
-	  "publisher": "Blick-Batz",
-	  "type": "Action|Comedy|Drama",
-	  "numberOfPages": 594,
-	  "isFavorite": true
-	}]
+  "books": [
+    {
+      "id": 1,
+      "title": "Crazy Stone (Fengkuang de shitou)",
+      "publisher": "Torphy, Cronin and Schumm",
+      "type": "Comedy|Crime",
+      "numberOfPages": null,
+      "isFavorite": false
+    },
+    {
+      "id": 2,
+      "title": "And Soon the Darkness",
+      "publisher": "Prohaska, Zieme and Lehner",
+      "type": "Mystery|Thriller",
+      "numberOfPages": 552,
+      "isFavorite": true
+    },
+    {
+      "id": 3,
+      "title": "Electra Glide in Blue",
+      "publisher": "Gusikowski, Lubowitz and Nolan",
+      "type": "Action|Crime",
+      "numberOfPages": 884,
+      "isFavorite": true
+    },
+    {
+      "id": 4,
+      "title": "ABC Africa",
+      "publisher": "Paucek, Dietrich and Stamm",
+      "type": "Documentary",
+      "numberOfPages": 394,
+      "isFavorite": false
+    },
+    {
+      "id": 5,
+      "title": "Pohjanmaa",
+      "publisher": "Boehm, Haley and Schaden",
+      "type": "Drama",
+      "numberOfPages": 943,
+      "isFavorite": false
+    },
+    {
+      "id": 6,
+      "title": "Garbage Prince",
+      "publisher": "Ryan Inc",
+      "type": "Comedy|Drama|Romance",
+      "numberOfPages": 339,
+      "isFavorite": false
+    },
+    {
+      "id": 7,
+      "title": "Art of War, The",
+      "publisher": "Rice-Greenholt",
+      "type": "Action|Thriller",
+      "numberOfPages": 557,
+      "isFavorite": true
+    },
+    {
+      "id": 8,
+      "title": "In Her Shoes",
+      "publisher": "Lang-Medhurst",
+      "type": "Comedy|Drama",
+      "numberOfPages": 338,
+      "isFavorite": false
+    },
+    {
+      "id": 9,
+      "title": "Four-Faced Liar, The",
+      "publisher": "Schaefer-Marvin",
+      "type": "Comedy|Drama|Romance",
+      "numberOfPages": 578,
+      "isFavorite": false
+    },
+    {
+      "id": 10,
+      "title": "Trust Me",
+      "publisher": "Abernathy, Lind and Deckow",
+      "type": "Comedy|Drama",
+      "numberOfPages": 140,
+      "isFavorite": false
+    },
+    {
+      "id": 11,
+      "title": "The Seven Males",
+      "publisher": "Paucek LLC",
+      "type": "Comedy|Western",
+      "numberOfPages": 695,
+      "isFavorite": true
+    },
+    {
+      "id": 12,
+      "title": "Fine, Totally Fine (Zenzen Daijobu)",
+      "publisher": "Douglas, Williamson and Sipes",
+      "type": "Comedy",
+      "numberOfPages": 784,
+      "isFavorite": true
+    },
+    {
+      "id": 13,
+      "title": "SpongeBob Movie: Sponge Out of Water, The",
+      "publisher": "Hilpert-O'Reilly",
+      "type": "Adventure|Animation|Children|Comedy",
+      "numberOfPages": 96,
+      "isFavorite": false
+    },
+    {
+      "id": 14,
+      "title": "The Referees",
+      "publisher": "Gaylord, Mayert and Witting",
+      "type": "Documentary",
+      "numberOfPages": 956,
+      "isFavorite": true
+    },
+    {
+      "id": 15,
+      "title": "Love God?, The",
+      "publisher": "Weimann Inc",
+      "type": "Comedy",
+      "numberOfPages": 836,
+      "isFavorite": true
+    },
+    {
+      "id": 16,
+      "title": "Planet of the Apes",
+      "publisher": "Schimmel-Boyle",
+      "type": "Action|Drama|Sci-Fi",
+      "numberOfPages": 613,
+      "isFavorite": false
+    },
+    {
+      "id": 17,
+      "title": "Lila Says (Lila dit ça)",
+      "publisher": "Schumm-Thompson",
+      "type": "Crime|Drama|Romance",
+      "numberOfPages": 490,
+      "isFavorite": true
+    },
+    {
+      "id": 18,
+      "title": "Maps to the Stars",
+      "publisher": "Herman Group",
+      "type": "Drama",
+      "numberOfPages": 589,
+      "isFavorite": false
+    },
+    {
+      "id": 19,
+      "title": "Drummer-Crab (Le Crabe-Tambour)",
+      "publisher": "Rutherford, Rowe and McLaughlin",
+      "type": "Adventure|Drama|War",
+      "numberOfPages": 885,
+      "isFavorite": false
+    },
+    {
+      "id": 20,
+      "title": "Child Bride",
+      "publisher": "Douglas-Klocko",
+      "type": "Drama",
+      "numberOfPages": 810,
+      "isFavorite": true
+    },
+    {
+      "id": 21,
+      "title": "Kwaidan (Kaidan)",
+      "publisher": "Huel LLC",
+      "type": "Horror",
+      "numberOfPages": 571,
+      "isFavorite": true
+    },
+    {
+      "id": 22,
+      "title": "The 'High Sign'",
+      "publisher": "Walker and Sons",
+      "type": "Comedy",
+      "numberOfPages": 169,
+      "isFavorite": true
+    },
+    {
+      "id": 23,
+      "title": "Tarzan the Fearless",
+      "publisher": "Kling LLC",
+      "type": "Action|Adventure",
+      "numberOfPages": 928,
+      "isFavorite": true
+    },
+    {
+      "id": 24,
+      "title": "I'm Not Rappaport",
+      "publisher": "Johnson, Yundt and Kautzer",
+      "type": "Comedy",
+      "numberOfPages": 504,
+      "isFavorite": true
+    },
+    {
+      "id": 25,
+      "title": "Chad Hanna",
+      "publisher": "Moore-Steuber",
+      "type": "Drama|Romance",
+      "numberOfPages": 303,
+      "isFavorite": false
+    },
+    {
+      "id": 26,
+      "title": "Escape",
+      "publisher": "Maggio-Stark",
+      "type": "Drama",
+      "numberOfPages": 712,
+      "isFavorite": false
+    },
+    {
+      "id": 27,
+      "title": "Neighbours",
+      "publisher": "Williamson, Purdy and Kassulke",
+      "type": "Animation|Comedy",
+      "numberOfPages": 392,
+      "isFavorite": false
+    },
+    {
+      "id": 28,
+      "title": "Frenchman's Creek",
+      "publisher": "Carroll LLC",
+      "type": "Adventure|Drama|Romance",
+      "numberOfPages": 547,
+      "isFavorite": false
+    },
+    {
+      "id": 29,
+      "title": "Callejón de los milagros, El",
+      "publisher": "Kertzmann-Muller",
+      "type": "Drama",
+      "numberOfPages": 343,
+      "isFavorite": false
+    },
+    {
+      "id": 30,
+      "title": "52 Pick-Up",
+      "publisher": "Leffler LLC",
+      "type": "Action|Mystery|Thriller",
+      "numberOfPages": 949,
+      "isFavorite": false
+    },
+    {
+      "id": 31,
+      "title": "The War at Home",
+      "publisher": "Crist and Sons",
+      "type": "Documentary|War",
+      "numberOfPages": null,
+      "isFavorite": false
+    },
+    {
+      "id": 32,
+      "title": "Captain January",
+      "publisher": "Kohler and Sons",
+      "type": "Drama",
+      "numberOfPages": 406,
+      "isFavorite": true
+    },
+    {
+      "id": 33,
+      "title": "Secret of NIMH 2: Timmy to the Rescue, The",
+      "publisher": "Bergstrom Group",
+      "type": "Adventure|Animation|Children|Musical",
+      "numberOfPages": 276,
+      "isFavorite": false
+    },
+    {
+      "id": 34,
+      "title": "Ingrid",
+      "publisher": "Dibbert and Sons",
+      "type": "Drama",
+      "numberOfPages": 421,
+      "isFavorite": false
+    },
+    {
+      "id": 35,
+      "title": "I Inside, The",
+      "publisher": "Shanahan-Wisozk",
+      "type": "Fantasy|Mystery|Sci-Fi",
+      "numberOfPages": 992,
+      "isFavorite": true
+    },
+    {
+      "id": 36,
+      "title": "Ways to Live Forever",
+      "publisher": "Walker-Corkery",
+      "type": "Children|Drama",
+      "numberOfPages": 271,
+      "isFavorite": false
+    },
+    {
+      "id": 37,
+      "title": "xXx: State of the Union",
+      "publisher": "Stark, Johns and Rowe",
+      "type": "Action|Crime|Thriller",
+      "numberOfPages": 751,
+      "isFavorite": false
+    },
+    {
+      "id": 38,
+      "title": "The Great Spy Chase",
+      "publisher": "Johns LLC",
+      "type": "Action|Comedy|Thriller",
+      "numberOfPages": 842,
+      "isFavorite": false
+    },
+    {
+      "id": 39,
+      "title": "Copycat",
+      "publisher": "Crooks, Hyatt and Bode",
+      "type": "Crime|Drama|Horror|Mystery|Thriller",
+      "numberOfPages": 599,
+      "isFavorite": true
+    },
+    {
+      "id": 40,
+      "title": "Skin I Live In, The (La piel que habito)",
+      "publisher": "Schamberger and Sons",
+      "type": "Drama",
+      "numberOfPages": 279,
+      "isFavorite": false
+    },
+    {
+      "id": 41,
+      "title": "Lucy",
+      "publisher": "Gutmann and Sons",
+      "type": "Comedy|Drama",
+      "numberOfPages": 121,
+      "isFavorite": false
+    },
+    {
+      "id": 42,
+      "title": "Survival Island (Three)",
+      "publisher": "Wolf-O'Kon",
+      "type": "Adventure|Drama|Horror",
+      "numberOfPages": 337,
+      "isFavorite": true
+    },
+    {
+      "id": 43,
+      "title": "Britannia Hospital",
+      "publisher": "Breitenberg-Kunze",
+      "type": "Comedy|Drama",
+      "numberOfPages": 336,
+      "isFavorite": false
+    },
+    {
+      "id": 44,
+      "title": "Maidens' Conspiracy, The (Tirante el Blanco)",
+      "publisher": "Collins-Bahringer",
+      "type": "Adventure",
+      "numberOfPages": 496,
+      "isFavorite": false
+    },
+    {
+      "id": 45,
+      "title": "Megiddo: The Omega Code 2",
+      "publisher": "Yundt, Adams and Davis",
+      "type": "Action|Adventure|Fantasy|Sci-Fi|Thriller",
+      "numberOfPages": 714,
+      "isFavorite": true
+    },
+    {
+      "id": 46,
+      "title": "Frozen River",
+      "publisher": "Hermann Inc",
+      "type": "Drama",
+      "numberOfPages": 872,
+      "isFavorite": false
+    },
+    {
+      "id": 47,
+      "title": "Incredible Hulk, The",
+      "publisher": "Lubowitz LLC",
+      "type": "Action|Sci-Fi",
+      "numberOfPages": 812,
+      "isFavorite": false
+    },
+    {
+      "id": 48,
+      "title": "Springsteen & I",
+      "publisher": "Kuphal-Stracke",
+      "type": "Documentary",
+      "numberOfPages": 866,
+      "isFavorite": false
+    },
+    {
+      "id": 49,
+      "title": "X2: X-Men United",
+      "publisher": "Maggio LLC",
+      "type": "Action|Adventure|Sci-Fi|Thriller",
+      "numberOfPages": 957,
+      "isFavorite": false
+    },
+    {
+      "id": 50,
+      "title": "Lawless Heart, The",
+      "publisher": "Cummerata Group",
+      "type": "Comedy|Drama",
+      "numberOfPages": 130,
+      "isFavorite": true
+    },
+    {
+      "id": 51,
+      "title": "District 13: Ultimatum (Banlieue 13 - Ultimatum)",
+      "publisher": "Stark and Sons",
+      "type": "Action|Sci-Fi",
+      "numberOfPages": 219,
+      "isFavorite": false
+    },
+    {
+      "id": 52,
+      "title": "Where the Boys Are",
+      "publisher": "Klein Group",
+      "type": "Comedy",
+      "numberOfPages": 256,
+      "isFavorite": true
+    },
+    {
+      "id": 53,
+      "title": "My Fake  Fiance",
+      "publisher": "Corwin Inc",
+      "type": "Comedy|Romance",
+      "numberOfPages": 219,
+      "isFavorite": true
+    },
+    {
+      "id": 54,
+      "title": "Made for Each Other",
+      "publisher": "Morar, Weimann and Kuhic",
+      "type": "Comedy",
+      "numberOfPages": 903,
+      "isFavorite": false
+    },
+    {
+      "id": 55,
+      "title": "Twin Falls Idaho",
+      "publisher": "Stroman LLC",
+      "type": "Drama",
+      "numberOfPages": 624,
+      "isFavorite": false
+    },
+    {
+      "id": 56,
+      "title": "Hercules",
+      "publisher": "Rippin-Senger",
+      "type": "Action|Adventure",
+      "numberOfPages": 776,
+      "isFavorite": false
+    },
+    {
+      "id": 57,
+      "title": "Skin I Live In, The (La piel que habito)",
+      "publisher": "Osinski Group",
+      "type": "Drama",
+      "numberOfPages": 976,
+      "isFavorite": true
+    },
+    {
+      "id": 58,
+      "title": "Tender Hook, The (Boxer and the Bombshell, The)",
+      "publisher": "Harvey Inc",
+      "type": "Crime|Drama|Mystery",
+      "numberOfPages": 233,
+      "isFavorite": false
+    },
+    {
+      "id": 59,
+      "title": "Paris, Texas",
+      "publisher": "Greenholt, Kulas and Gleason",
+      "type": "Drama|Romance",
+      "numberOfPages": 192,
+      "isFavorite": false
+    },
+    {
+      "id": 60,
+      "title": "Oliver!",
+      "publisher": "Boyer, Mosciski and Ondricka",
+      "type": "Drama|Musical",
+      "numberOfPages": 380,
+      "isFavorite": true
+    },
+    {
+      "id": 61,
+      "title": "Cocoon: The Return",
+      "publisher": "Lemke Inc",
+      "type": "Comedy|Sci-Fi",
+      "numberOfPages": 579,
+      "isFavorite": false
+    },
+    {
+      "id": 62,
+      "title": "Mission: Impossible",
+      "publisher": "Gibson Group",
+      "type": "Action|Adventure|Mystery|Thriller",
+      "numberOfPages": 310,
+      "isFavorite": false
+    },
+    {
+      "id": 63,
+      "title": "Empire of the Ants",
+      "publisher": "Hackett-Yundt",
+      "type": "Horror|Sci-Fi",
+      "numberOfPages": 460,
+      "isFavorite": false
+    },
+    {
+      "id": 64,
+      "title": "Bedtime Stories",
+      "publisher": "Sipes, Quigley and Gulgowski",
+      "type": "Adventure|Children|Comedy",
+      "numberOfPages": 943,
+      "isFavorite": true
+    },
+    {
+      "id": 65,
+      "title": "Jaws",
+      "publisher": "Johnson and Sons",
+      "type": "Action|Horror",
+      "numberOfPages": 468,
+      "isFavorite": false
+    },
+    {
+      "id": 66,
+      "title": "Election (Hak se wui)",
+      "publisher": "Gislason LLC",
+      "type": "Crime|Drama|Thriller",
+      "numberOfPages": 648,
+      "isFavorite": true
+    },
+    {
+      "id": 67,
+      "title": "Ill-Fated Love (Doomed Love) (Amor de Perdição)",
+      "publisher": "Beatty, Koss and Schamberger",
+      "type": "Drama|Romance",
+      "numberOfPages": 118,
+      "isFavorite": true
+    },
+    {
+      "id": 68,
+      "title": "Chhoti Si Baat",
+      "publisher": "Armstrong-O'Keefe",
+      "type": "Comedy|Romance",
+      "numberOfPages": 152,
+      "isFavorite": false
+    },
+    {
+      "id": 69,
+      "title": "Tale of Princess Kaguya, The (Kaguyahime no monogatari)",
+      "publisher": "Crona, Olson and Little",
+      "type": "Animation|Drama|Fantasy",
+      "numberOfPages": 174,
+      "isFavorite": false
+    },
+    {
+      "id": 70,
+      "title": "Lady and the Tramp II: Scamp's Adventure",
+      "publisher": "Hoppe, Koss and Metz",
+      "type": "Adventure|Animation|Children",
+      "numberOfPages": 474,
+      "isFavorite": true
+    },
+    {
+      "id": 71,
+      "title": "Don't Change Your Husband",
+      "publisher": "Donnelly, Parker and Herzog",
+      "type": "Comedy",
+      "numberOfPages": 932,
+      "isFavorite": false
+    },
+    {
+      "id": 72,
+      "title": "American Strays",
+      "publisher": "Dicki, Wuckert and Sporer",
+      "type": "Action",
+      "numberOfPages": 627,
+      "isFavorite": false
+    },
+    {
+      "id": 73,
+      "title": "Black Heaven (L'autre monde) (Other World, The)",
+      "publisher": "Pagac-Cartwright",
+      "type": "Drama",
+      "numberOfPages": 663,
+      "isFavorite": true
+    },
+    {
+      "id": 74,
+      "title": "Humoresque",
+      "publisher": "Treutel, Turner and Ziemann",
+      "type": "Drama|Romance",
+      "numberOfPages": 596,
+      "isFavorite": false
+    },
+    {
+      "id": 75,
+      "title": "Real Blonde, The",
+      "publisher": "O'Connell-Ruecker",
+      "type": "Comedy",
+      "numberOfPages": 844,
+      "isFavorite": false
+    },
+    {
+      "id": 76,
+      "title": "Divorce Iranian Style",
+      "publisher": "Bechtelar, Dietrich and Kozey",
+      "type": "Documentary",
+      "numberOfPages": 254,
+      "isFavorite": true
+    },
+    {
+      "id": 77,
+      "title": "Pokémon Origins",
+      "publisher": "Kovacek-Gleason",
+      "type": "Adventure|Animation",
+      "numberOfPages": 147,
+      "isFavorite": false
+    },
+    {
+      "id": 78,
+      "title": "Our Town",
+      "publisher": "Jerde-Hackett",
+      "type": "Drama|Romance",
+      "numberOfPages": 703,
+      "isFavorite": false
+    },
+    {
+      "id": 79,
+      "title": "South Park: Imaginationland",
+      "publisher": "Thiel Group",
+      "type": "Animation|Comedy|Fantasy",
+      "numberOfPages": 706,
+      "isFavorite": false
+    },
+    {
+      "id": 80,
+      "title": "Soul Food",
+      "publisher": "Legros, Mante and Upton",
+      "type": "Drama",
+      "numberOfPages": 564,
+      "isFavorite": true
+    },
+    {
+      "id": 81,
+      "title": "Great Expectations",
+      "publisher": "O'Keefe-Kutch",
+      "type": "Drama|Romance",
+      "numberOfPages": 682,
+      "isFavorite": false
+    },
+    {
+      "id": 82,
+      "title": "Jonathan Livingston Seagull",
+      "publisher": "Anderson, Kuhic and Flatley",
+      "type": "Drama",
+      "numberOfPages": 150,
+      "isFavorite": false
+    },
+    {
+      "id": 83,
+      "title": "History of Kim Skov (Historien om Kim Skov)",
+      "publisher": "Ankunding-Hoppe",
+      "type": "Documentary|Drama",
+      "numberOfPages": 860,
+      "isFavorite": true
+    },
+    {
+      "id": 84,
+      "title": "Crocodile (Ag-o)",
+      "publisher": "Zemlak-Waters",
+      "type": "Drama",
+      "numberOfPages": 251,
+      "isFavorite": false
+    },
+    {
+      "id": 85,
+      "title": "Cheeky Girls",
+      "publisher": "Satterfield-Veum",
+      "type": "Comedy",
+      "numberOfPages": 714,
+      "isFavorite": true
+    },
+    {
+      "id": 86,
+      "title": "Edison, the Man",
+      "publisher": "Morar, Mayert and Erdman",
+      "type": "Drama",
+      "numberOfPages": 842,
+      "isFavorite": false
+    },
+    {
+      "id": 87,
+      "title": "Star 80",
+      "publisher": "Leuschke, Breitenberg and Johnston",
+      "type": "Drama",
+      "numberOfPages": 821,
+      "isFavorite": false
+    },
+    {
+      "id": 88,
+      "title": "White Squall",
+      "publisher": "Prosacco, Keeling and Hackett",
+      "type": "Action|Adventure|Drama",
+      "numberOfPages": 285,
+      "isFavorite": true
+    },
+    {
+      "id": 89,
+      "title": "Idiots and Angels",
+      "publisher": "McDermott Inc",
+      "type": "Animation|Drama|Fantasy",
+      "numberOfPages": 605,
+      "isFavorite": false
+    },
+    {
+      "id": 90,
+      "title": "Bleak Moments",
+      "publisher": "Shields, Connelly and Runolfsdottir",
+      "type": "Comedy|Drama",
+      "numberOfPages": 926,
+      "isFavorite": false
+    },
+    {
+      "id": 91,
+      "title": "Waiter (Ober)",
+      "publisher": "Larson, Kuphal and Beer",
+      "type": "Comedy",
+      "numberOfPages": 763,
+      "isFavorite": true
+    },
+    {
+      "id": 92,
+      "title": "Wend Kuuni (a.k.a. God's Gift)",
+      "publisher": "Morissette Inc",
+      "type": "Drama",
+      "numberOfPages": 894,
+      "isFavorite": false
+    },
+    {
+      "id": 93,
+      "title": "Joe Somebody",
+      "publisher": "Hintz, Predovic and Wisoky",
+      "type": "Comedy|Drama|Romance",
+      "numberOfPages": 690,
+      "isFavorite": false
+    },
+    {
+      "id": 94,
+      "title": "Final Approach",
+      "publisher": "Toy and Sons",
+      "type": "Sci-Fi|Thriller",
+      "numberOfPages": 541,
+      "isFavorite": false
+    },
+    {
+      "id": 95,
+      "title": "Seven Billiard Tables (Siete mesas de billar francés)",
+      "publisher": "Hegmann-Lind",
+      "type": "Drama",
+      "numberOfPages": 864,
+      "isFavorite": false
+    },
+    {
+      "id": 96,
+      "title": "Rains of Ranchipur, The",
+      "publisher": "Rohan-Quigley",
+      "type": "Adventure|Drama|Romance",
+      "numberOfPages": 264,
+      "isFavorite": false
+    },
+    {
+      "id": 97,
+      "title": "Just the Ticket",
+      "publisher": "Runolfsdottir-Carter",
+      "type": "Comedy|Romance",
+      "numberOfPages": 179,
+      "isFavorite": true
+    },
+    {
+      "id": 98,
+      "title": "Le ultime ore di una vergine",
+      "publisher": "Jenkins, Kessler and Greenholt",
+      "type": "(no genres listed)",
+      "numberOfPages": 479,
+      "isFavorite": false
+    },
+    {
+      "id": 99,
+      "title": "Wild, The",
+      "publisher": "Lynch, Connelly and Effertz",
+      "type": "Adventure|Animation|Children|Comedy|Fantasy",
+      "numberOfPages": 693,
+      "isFavorite": false
+    },
+    {
+      "id": 100,
+      "title": "Paint It Yellow (Rang De Basanti)",
+      "publisher": "Blick-Batz",
+      "type": "Action|Comedy|Drama",
+      "numberOfPages": 594,
+      "isFavorite": true
+    },
+    {
+      "id": 101
+    },
+    {
+      "title": "zaf",
+      "publisher": "zff",
+      "type": "fazf",
+      "numberOfPages": "zf",
+      "isFavorite": false,
+      "id": 102
+    }
+  ]
 }

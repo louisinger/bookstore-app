@@ -1,11 +1,22 @@
 <div class="container content">
-  <div class="card" style="width: 18rem;">
-  <img class="card-img-top" src="..." alt="Card image cap">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+
+  <div class="row">
+    <div class="col-12 col-md-4">
+      <app-create-card></app-create-card>
+    </div>
+    <div class="col-12 col-md-8">
+      <app-read-card [books]="(allBooks | async)"></app-read-card>
+    </div>
   </div>
-</div>
+
+  <div class="row">
+    <div class="col-12 col-md-4">
+      <app-create-card></app-create-card>
+    </div>
+    <div class="col-12 col-md-8">
+      <app-create-card></app-create-card>
+    </div>
+  </div>
+
 </div>
 
