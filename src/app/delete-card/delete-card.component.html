@@ -1,3 +1,14 @@
-<p>
-  delete-card works!
-</p>
+<div class="card">
+  <div class="card-header">
+    <h5 class="card-title">Delete book</h5>
+  </div>
+  <div class="card-body">
+    <form [formGroup]="formGroup" (ngSubmit)="deleteBook()">
+      <div class="form-group">
+        <label for="id">Book id</label>
+        <input formControlName="id" type="text" class="form-control" id="id" aria-describedby="bookID" placeholder="Enter the id of a book">
+      </div>
+      <button [disabled]="!formGroup.valid" class="btn btn-primary mb-2">delete</button>
+    </form>
+  </div>
+</div>

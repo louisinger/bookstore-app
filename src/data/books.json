@@ -9,14 +9,6 @@
       "isFavorite": false
     },
     {
-      "id": 2,
-      "title": "And Soon the Darkness",
-      "publisher": "Prohaska, Zieme and Lehner",
-      "type": "Mystery|Thriller",
-      "numberOfPages": 552,
-      "isFavorite": true
-    },
-    {
       "id": 3,
       "title": "Electra Glide in Blue",
       "publisher": "Gusikowski, Lubowitz and Nolan",
@@ -858,54 +850,6 @@
       "numberOfPages": "faf",
       "isFavorite": false,
       "id": 108
-    },
-    {
-      "title": "test",
-      "publisher": "test",
-      "type": "test",
-      "numberOfPages": "66",
-      "isFavorite": false,
-      "id": 109
-    },
-    {
-      "title": "affa",
-      "publisher": "fazf",
-      "type": "f",
-      "numberOfPages": "zr",
-      "isFavorite": false,
-      "id": 110
-    },
-    {
-      "title": "zf",
-      "publisher": "zaf",
-      "type": "zf",
-      "numberOfPages": "z",
-      "isFavorite": false,
-      "id": 111
-    },
-    {
-      "title": "zarf",
-      "publisher": "dz",
-      "type": "zff",
-      "numberOfPages": "zd",
-      "isFavorite": false,
-      "id": 112
-    },
-    {
-      "title": "Test",
-      "publisher": "Test",
-      "type": "Test",
-      "numberOfPages": "432",
-      "isFavorite": false,
-      "id": 113
-    },
-    {
-      "title": "daz",
-      "publisher": "f",
-      "type": "azf",
-      "numberOfPages": "f",
-      "isFavorite": false,
-      "id": 114
     }
   ]
 }
