@@ -1,0 +1,4 @@
+.books-table {
+    overflow-y: scroll;
+    max-height: 427px;
+}

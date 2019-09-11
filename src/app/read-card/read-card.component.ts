@@ -19,5 +19,4 @@ export class ReadCardComponent implements OnInit {
   ngOnInit() {
   }
 
-
 }

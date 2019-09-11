@@ -1,20 +1,26 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { BooksService } from '../core/services/books.service';
 import { Book } from '../model/book';
+import { SnackbarService } from '../core/snackbar.service';
+import { Subject } from 'rxjs';
+import { takeUntil } from 'rxjs/operators';
 
 @Component({
   selector: 'app-create-card',
   templateUrl: './create-card.component.html',
   styleUrls: ['./create-card.component.css']
 })
-export class CreateCardComponent implements OnInit {
+export class CreateCardComponent implements OnInit, OnDestroy {
+
+  private stop = new Subject();
 
   formGroup: FormGroup;
 
   constructor(
     private formBuilder: FormBuilder,
-    private bookService: BooksService
+    private bookService: BooksService,
+    private snackbarService: SnackbarService
   ) { }
 
   ngOnInit() {
@@ -39,9 +45,18 @@ export class CreateCardComponent implements OnInit {
       isFavorite: false
     };
 
-    this.bookService.create(book).subscribe((result: Book) => {
+    this.bookService.create(book)
+    .pipe(takeUntil(this.stop))
+    .subscribe((result: Book) => {
+      this.snackbarService.show('Book has been created');
       console.log('The book:', result.title, 'has been created');
+      this.formGroup.reset();
     });
+  }
+
+  ngOnDestroy() {
+    this.stop.next();
+    this.stop.complete();
   }
 
 }
