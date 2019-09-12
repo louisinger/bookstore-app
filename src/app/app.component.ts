@@ -1,14 +1,17 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import { BooksService } from './core/services/books.service';
-import { Observable } from 'rxjs';
+import { Observable, Subject } from 'rxjs';
 import { Book } from './model/book';
+import { takeUntil } from 'rxjs/operators';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent implements OnInit {
+export class AppComponent implements OnInit, OnDestroy {
+  private stop = new Subject();
+
   allBooks: Observable<Book[]>;
 
   constructor(
@@ -16,7 +19,11 @@ export class AppComponent implements OnInit {
   ) {}
 
   ngOnInit() {
-    this.allBooks = this.bookService.get();
+    this.allBooks = this.bookService.get().pipe(takeUntil(this.stop));
   }
 
+  ngOnDestroy() {
+    this.stop.next();
+    this.stop.complete();
+  }
 }

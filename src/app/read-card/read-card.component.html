@@ -1,4 +1,4 @@
-<div class="card">
+<div class="card border border-primary">
   <div class="card-header">
     <h5 class="card-title">Explore books</h5>
   </div>
@@ -16,7 +16,7 @@
       <tbody>
         <tr *ngFor="let book of books">
           <th scope="row">{{book.id}}</th>
-          <td>{{book.publisher}}</td>
+          <td>{{book.title}}</td>
           <td>{{book.publisher}}</td>
           <td>{{book.numberOfPages}}</td>
           <td>{{book.favorite}}</td>

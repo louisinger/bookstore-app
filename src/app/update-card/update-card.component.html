@@ -1,3 +1,36 @@
-<p>
-  update-card works!
-</p>
+<div class="card border border-primary">
+  <div class="card-header">
+    <h5 class="card-title">Update book</h5>
+  </div>
+  <div class="card-body">
+    <form [formGroup]="selectFormGroup">
+      <div class="form-group">
+        <label for="bookSelect">Select book to modify</label>
+        <select formControlName="selectedBook" class="form-control" id="bookSelect">
+          <option [ngValue]="book" *ngFor="let book of books">
+            {{book.id}} - {{book.title}}
+          </option>
+        </select>
+      </div>
+    </form>
+    <form *ngIf="this.selectedBook" [formGroup]="formGroup" (ngSubmit)="updateBook()">
+      <div class="form-group">
+        <label for="title">Book title</label>
+        <input formControlName="title" type="text" class="form-control" id="title" aria-describedby="title" placeholder="Enter the book's title">
+      </div>
+      <div class="form-group">
+        <label for="publisher">Publisher</label>
+        <input formControlName="publisher" type="text" class="form-control" id="publisher" aria-describedby="publisher" placeholder="What is the publisher of the book ?">
+      </div>
+      <div class="form-group">
+        <label for="type">Book type</label>
+        <input formControlName="type" type="text" class="form-control" id="type" aria-describedby="type" placeholder="Enter the book's type">
+      </div>
+      <div class="form-group">
+        <label for="numberOfPages">Number of pages</label>
+        <input formControlName="numberOfPages" type="text" class="form-control" id="numberOfPages" aria-describedby="numberOfPages" placeholder="Enter the number of pages">
+      </div>
+      <button [disabled]="!formGroup.valid" class="btn btn-primary mb-2">Update</button>
+    </form>
+  </div>
+</div>
