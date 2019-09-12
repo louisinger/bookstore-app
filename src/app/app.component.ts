@@ -22,6 +22,11 @@ export class AppComponent implements OnInit, OnDestroy {
     this.allBooks = this.bookService.get().pipe(takeUntil(this.stop));
   }
 
+  refreshBooks() {
+    this.stop.next();
+    this.allBooks = this.bookService.get().pipe(takeUntil(this.stop));
+  }
+
   ngOnDestroy() {
     this.stop.next();
     this.stop.complete();

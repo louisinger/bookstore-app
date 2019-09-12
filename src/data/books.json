@@ -3,7 +3,7 @@
     {
       "id": 1,
       "title": "Crazy Stone (Fengkuang de shitou)",
-      "publisher": "Torphy, Cronin and Schumm",
+      "publisher": "Louis Singer",
       "type": "Comedy|Crime",
       "numberOfPages": "40",
       "isFavorite": false
@@ -791,65 +791,6 @@
       "type": "Action|Comedy|Drama",
       "numberOfPages": 594,
       "isFavorite": true
-    },
-    {
-      "id": 101
-    },
-    {
-      "title": "zaf",
-      "publisher": "zff",
-      "type": "fazf",
-      "numberOfPages": "zf",
-      "isFavorite": false,
-      "id": 102
-    },
-    {
-      "title": "azf azf",
-      "publisher": "faezf",
-      "type": "fazf",
-      "numberOfPages": "fae",
-      "isFavorite": false,
-      "id": 103
-    },
-    {
-      "title": "azf azf",
-      "publisher": "faezf",
-      "type": "fazf",
-      "numberOfPages": "fae",
-      "isFavorite": false,
-      "id": 104
-    },
-    {
-      "title": "aff",
-      "publisher": "zff",
-      "type": "fazf",
-      "numberOfPages": "afza",
-      "isFavorite": false,
-      "id": 105
-    },
-    {
-      "title": "azfsfaz",
-      "publisher": "faf",
-      "type": "faef",
-      "numberOfPages": "faf",
-      "isFavorite": false,
-      "id": 106
-    },
-    {
-      "title": "azfsfaz",
-      "publisher": "faf",
-      "type": "faef",
-      "numberOfPages": "faf",
-      "isFavorite": false,
-      "id": 107
-    },
-    {
-      "title": "azfsfaz",
-      "publisher": "faf",
-      "type": "faef",
-      "numberOfPages": "faf",
-      "isFavorite": false,
-      "id": 108
     }
   ]
 }

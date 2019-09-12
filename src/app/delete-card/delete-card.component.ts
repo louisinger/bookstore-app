@@ -1,4 +1,4 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Component, OnInit, OnDestroy, Output, EventEmitter } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { SnackbarService } from '../core/snackbar.service';
 import { BooksService } from '../core/services/books.service';
@@ -16,6 +16,9 @@ export class DeleteCardComponent implements OnInit, OnDestroy {
   private formGroup: FormGroup;
 
   private stop = new Subject();
+  
+  @Output()
+  deleteDone: EventEmitter<Book> = new EventEmitter<Book>();
 
   constructor(
     private formBuilder: FormBuilder, 
@@ -36,7 +39,10 @@ export class DeleteCardComponent implements OnInit, OnDestroy {
   deleteBook() {
     this.bookService.delete(this.formGroup.get('id').value)
     .pipe(takeUntil(this.stop))
-    .subscribe((book: Book) => this.snackbarService.show('The book ' + book.title + ' has been deleted.'));
+    .subscribe((book: Book) => {
+      this.snackbarService.show('The book has been deleted.');
+      this.deleteDone.emit(book);
+    });
   }
 
   ngOnDestroy() {

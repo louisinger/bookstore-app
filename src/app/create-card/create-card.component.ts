@@ -1,4 +1,4 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Component, OnInit, OnDestroy, Output, EventEmitter } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { BooksService } from '../core/services/books.service';
 import { Book } from '../model/book';
@@ -12,6 +12,8 @@ import { takeUntil } from 'rxjs/operators';
   styleUrls: ['./create-card.component.css']
 })
 export class CreateCardComponent implements OnInit, OnDestroy {
+  @Output()
+  creationDone: EventEmitter<Book> = new EventEmitter<Book>();
 
   private stop = new Subject();
 
@@ -50,6 +52,7 @@ export class CreateCardComponent implements OnInit, OnDestroy {
     .subscribe((result: Book) => {
       this.snackbarService.show('Book has been created');
       console.log('The book:', result.title, 'has been created');
+      this.creationDone.emit(result);
       this.formGroup.reset();
     });
   }

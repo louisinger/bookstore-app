@@ -1,4 +1,4 @@
-import { Component, OnInit, OnDestroy, Input } from '@angular/core';
+import { Component, OnInit, OnDestroy, Input, EventEmitter, Output } from '@angular/core';
 import { Subject } from 'rxjs';
 import { SnackbarService } from '../core/snackbar.service';
 import { BooksService } from '../core/services/books.service';
@@ -14,6 +14,9 @@ import { takeUntil } from 'rxjs/operators';
 export class UpdateCardComponent implements OnInit, OnDestroy {
   @Input()
   books: Book[];
+
+  @Output()
+  updateDone: EventEmitter<Book> = new EventEmitter<Book>();
 
   private stop = new Subject();
 
@@ -61,11 +64,14 @@ export class UpdateCardComponent implements OnInit, OnDestroy {
     this.selectedBook.publisher = this.formGroup.get('publisher').value;
     this.selectedBook.type = this.formGroup.get('type').value;
     this.selectedBook.numberOfPages = this.formGroup.get('numberOfPages').value;
-    
+
     this.bookService.update(this.selectedBook)
     .pipe(takeUntil(this.stop))
     .subscribe(
-      (book: Book) => this.snackbarService.show('The book #' + book.id + ' has been updated.')
+      (book: Book) => {
+        this.snackbarService.show('The book #' + book.id + ' has been updated.');
+        this.updateDone.emit(book);
+      }
     );
   }
 
