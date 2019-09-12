@@ -1,22 +1,32 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, OnDestroy } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
 import { Book } from '../model/book';
+import { BooksService } from '../core/services/books.service';
+import { Subject } from 'rxjs';
 
 @Component({
   selector: 'app-read-card',
   templateUrl: './read-card.component.html',
   styleUrls: ['./read-card.component.css']
 })
-export class ReadCardComponent implements OnInit {
+export class ReadCardComponent implements OnInit, OnDestroy {
 
   @Input()
   books: Book[];
 
+  private stop = new Subject();
+
 
   constructor(
+    private bookService: BooksService
   ) { }
 
   ngOnInit() {
+  }
+
+  switchFavorite(book: Book) {
+    book.isFavorite = !book.isFavorite;
+    this.bookService.update(book).subscribe();
   }
 
   sortById() {
@@ -45,11 +55,11 @@ export class ReadCardComponent implements OnInit {
 
   private compareByIsFavorite(book1: Book, book2: Book) {
     if (book1.isFavorite && !book2.isFavorite) {
-      return 1;
+      return -1;
     } 
 
     if (!book1.isFavorite && book2.isFavorite) {
-      return -1;
+      return 1;
     }
 
     return 0;
@@ -113,5 +123,10 @@ export class ReadCardComponent implements OnInit {
     }
 
     return 0;
+  }
+
+  ngOnDestroy() {
+    this.stop.next();
+    this.stop.complete();
   }
 }

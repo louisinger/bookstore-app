@@ -21,7 +21,15 @@
           <td>{{book.publisher}}</td>
           <td>{{book.type}}</td>
           <td>{{book.numberOfPages}}</td>
-          <td>{{book.favorite}}</td>
+          <td>
+            <ng-container *ngIf="book.isFavorite; then thenTemplate; else elseTemplate"></ng-container>
+            <ng-template #thenTemplate>
+              <button type="button" class="btn btn-primary" (click)="switchFavorite(book)">is favorite</button>
+            </ng-template>
+            <ng-template #elseTemplate>
+              <button type="button" class="btn btn-danger" (click)="switchFavorite(book)">is not favorite</button>
+            </ng-template>
+          </td>
         </tr>
       </tbody>
     </table>
